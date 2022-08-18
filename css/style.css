@@ -1,0 +1,144 @@
+#title{
+    background-color: rgb(254, 196, 3);
+    height: 42rem   ;
+}
+
+h1{
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.container-fluled{
+    padding: 3% 15%;
+}
+
+.navbar-brand{
+    font-family:'Ubuntu', sans-serif;
+    font-size: 3rem;
+}
+.nav-link{
+    
+    margin: 0 18px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+body{
+    font-family: 'Montserrat-bold', sans-serif;
+}
+.navbar{
+    padding: 2rem;
+}
+.btn{
+    margin: 5% 3% 5% 1%;
+}
+.title-image{
+    width: 55%;
+    transform: rotate(25deg);
+}
+#features{
+    background-color: #fff;
+    padding: 6.25rem 12.5rem ;
+    position: relative;
+    z-index: 1;
+}
+
+.f-div{
+    text-align: center;
+}
+
+.f-h3{
+    font-size: 2.5rem;
+}
+.f-p{
+    padding: 0 20%;
+    color: gray;
+}
+.f-icon{
+    margin-bottom: 2rem;
+    color: rgb(250, 243, 44) ;
+}
+.f-icon:hover{
+    color: rgb(254, 196, 3) ;
+}
+
+#testimonials{
+    background-color: rgb(254, 196, 3) ;
+    text-align: center;
+   
+}
+.t-img{
+    width: 10%;
+    height: 10%;
+    border-radius: 100%;
+}
+#press{
+    background-color: rgb(254, 196, 3) ;
+    text-align: center;
+}
+
+.press-img{
+    width: 15%;
+    margin: 1rem;
+}
+.t-h2{
+    color: #fff;
+    font-family: 'Montserrat-bold';
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    margin-bottom: 2rem;
+}
+
+.t-em{
+    color: #fff;
+}
+
+.carousel-item{
+    padding: 12.5rem ;
+}
+#pricing{
+    padding: 7rem;
+    text-align: center;
+}
+.pricing-card{
+padding: 3% 3%;
+text-align: center;
+}
+
+.pricing-h2{
+    font-size: 2.5rem;
+}
+.pricing-p{
+color: gray;
+}
+
+#cta{
+    padding: 7% 15%;
+    background-color: rgb(254, 196, 3) ;
+    text-align: center;
+}
+
+.cta-h3{
+    font-size: 3.5rem;
+    color: #fff;
+    margin-bottom: 50px;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.f-ico{
+padding: 3% 1.5%;
+}
+@media (max-width:1020px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        height: auto;
+        text-align: center;
+    }
+}
